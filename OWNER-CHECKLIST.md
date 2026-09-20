@@ -1,37 +1,18 @@
-# Slab Worth — owner checklist
+# Slab Worth — publication checklist
 
-The website is ready to upload. Its legal documents remain review drafts.
+The attached Terms and Privacy Policy are complete documents with the factual data flows found in the Slab Worth source code and the published provider policies. Confirm each item below before submitting the app or treating the pages as final legal advice.
 
-## Complete the Privacy Policy
+## App behavior that must match the policy
 
-Replace all highlighted drafting instructions in `privacy.html` with verified facts. In particular, confirm:
+- Add clear, affirmative notice and consent before a camera frame or selected photo is sent to CardSight AI. Apple requires explicit permission before sharing personal data with third-party AI. Give users a way to decline and still use text search where possible.
+- CardSight’s published terms permit submitted data to be used for service improvement and AI training and its privacy policy restricts use to people 18 or older. Keep the age restriction and disclosure current, or use a different provider/contract with verified terms.
+- Sign in with Apple currently stores an Apple identifier and name locally and offers Sign Out. If this is account creation, add in-app account deletion, delete associated records, and revoke Apple tokens as Apple requires. Do not describe Sign Out as full account deletion.
+- Test card deletion, iCloud copies, exports, notifications, widget data, purchase restoration, refund/revocation, and the first-30-scans allowance on real devices.
 
-- Legal publisher, business/contact address, countries served, and audience.
-- Whether photos, crops, recognized text, or image metadata leave the device.
-- Every relevant vendor, SDK, backend, and hosting provider; their purposes and the data they receive.
-- Purchase validation, support emails, diagnostic records, analytics, advertising, and account handling.
-- Retention periods and tested local, cloud, server, and account-deletion steps.
-- Permission and consent controls, international processing, and applicable privacy rights.
-- Intended and actual use by children or teenagers.
-- How this GitHub Pages website's hosting processes visitor request information.
+## Provider and release checks
 
-Do not replace missing facts with broad claims such as “we collect no data” or “everything stays on your device” unless verified.
-
-## Verify the Terms
-
-The Terms reflect the publisher's correction: Pro is a one-time, non-consumable lifetime unlock. They retain unlimited scanning, local/iCloud collection storage, CSV export, and named market-data services from the supplied text. Confirm those features against the app, verify that App Store Connect and StoreKit use the correct non-consumable product, and check that the paywall shows the actual one-time price and included features. Test Restore Purchases and refund/revocation handling.
-
-This purchase grants an entitlement that does not expire or decrease with use. Do not describe it as ending whenever the publisher chooses or require payment again for the same unlock. See [Apple's product-type definitions](https://developer.apple.com/help/app-store-connect/configure-in-app-purchase-settings/overview-for-configuring-in-app-purchases).
-
-The page links directly to Apple's standard EULA and to this site's privacy page. It is supplemental Terms, not a custom EULA replacement.
-
-## Final publication checks
-
-- Publish `support.html`, check that the email contact is correct and monitored, and enter its full live HTTPS address into App Store Connect's Support URL field. Add any additional contact information required by the laws applicable to the publisher. See [Apple's Support URL requirements](https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/).
-- Have the completed text reviewed for the publisher's jurisdiction and distribution markets.
-- Set the final dates; remove drafting instructions, draft notices, badges, and draft metadata after verification.
-- Ensure the policy, App Store privacy labels, permissions, purchase flow, and app behavior agree.
-- Check permission to use card artwork, trademarks, and commercial data feeds.
-- Keep a record of each legal-document version and its effective date.
-
-No policy guarantees immunity from lawsuits or Apple approval. This file is owner guidance and is not part of the website's Terms or Privacy Policy. If uploaded to a public repository, it is publicly readable.
+- Verify current CardSight, Apple, Pokémon TCG API, TCGdex, PriceCharting, eBay, RareBit, artwork-host, Google/Gmail, and GitHub terms, retention, international-transfer safeguards, and permissions for the data and artwork used.
+- Reconcile the App Store Connect privacy answers with the actual image uploads, network requests, Apple services, and local/iCloud storage. Do not use “Data Not Collected” as a shortcut.
+- Confirm the lifetime product is configured as the non-consumable `com.pocketgrade.pro.lifetime`, the paywall shows a one-time price, and Restore Purchases works.
+- Confirm the support mailbox is monitored and paste the live HTTPS `support.html` address into App Store Connect. Add any business address or other contact information required by the laws applicable to the publisher.
+- Obtain jurisdiction-specific legal review. No document can guarantee immunity from lawsuits or Apple approval; truthful disclosures, matching behavior, and appropriate contracts are what reduce risk.
