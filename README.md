@@ -42,7 +42,11 @@ Replace the username and repository with your actual values, or copy the deploye
 
 The Support page identifies Hayden Fuhrer, displays `haydenfuhrer2@gmail.com`, and includes help for purchases, scans, collections, and technical problems. Confirm that this mailbox is monitored. Apple requires the support website to lead to actual contact information; additional contact details may be required by local law. [Apple's Support URL documentation](https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/).
 
-If you already uploaded the previous package, upload this package's files to the same location and replace the earlier versions. This adds `support.html` and updates the links and shared styling. No change to your existing GitHub Pages settings is needed when the repository and publishing folder stay the same.
+If you already uploaded the previous package, upload this package's files to the same location and replace the earlier versions. This version updates Pro to a **one-time, non-consumable lifetime unlock** across `index.html`, `support.html`, and the purchase-related privacy wording in `privacy.html`. No change to your existing GitHub Pages settings is needed when the repository and publishing folder stay the same.
+
+If you have made additional edits in the live repository, merge this update into those files instead of overwriting them. The included legal pages still carry the existing review status and incomplete privacy fields. This download has not itself changed or redeployed your GitHub repository.
+
+Verify the deployed Terms describe one payment, no expiry from elapsed time or use, and restoration of the same unlock. Check Support as well. Match the wording to the app's actual non-consumable product and paywall; changing these files does not change the app's purchase configuration.
 
 ## Complete the legal drafts before using them in your app
 

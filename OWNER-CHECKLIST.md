@@ -19,7 +19,9 @@ Do not replace missing facts with broad claims such as “we collect no data” 
 
 ## Verify the Terms
 
-The Terms preserve the source document's monthly Pro subscription, unlimited scanning, local/iCloud collection storage, CSV export, and named market-data services. Confirm those statements against the app. Confirm Restore Purchases works and that the subscription purchase flow shows the actual offer and billing details.
+The Terms reflect the publisher's correction: Pro is a one-time, non-consumable lifetime unlock. They retain unlimited scanning, local/iCloud collection storage, CSV export, and named market-data services from the supplied text. Confirm those features against the app, verify that App Store Connect and StoreKit use the correct non-consumable product, and check that the paywall shows the actual one-time price and included features. Test Restore Purchases and refund/revocation handling.
+
+This purchase grants an entitlement that does not expire or decrease with use. Do not describe it as ending whenever the publisher chooses or require payment again for the same unlock. See [Apple's product-type definitions](https://developer.apple.com/help/app-store-connect/configure-in-app-purchase-settings/overview-for-configuring-in-app-purchases).
 
 The page links directly to Apple's standard EULA and to this site's privacy page. It is supplemental Terms, not a custom EULA replacement.
 
