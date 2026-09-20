@@ -4,13 +4,13 @@ A complete static website. No installation, build command, API key, or paid host
 
 ## Preview it
 
-Unzip the download and double-click `index.html`. Keep `privacy.html` and `styles.css` beside it. The pages also work without JavaScript.
+Unzip the download and double-click `index.html`. Keep `privacy.html`, `support.html`, and `styles.css` beside it. The pages also work without JavaScript.
 
 ## Put it on GitHub Pages
 
 1. Sign in to GitHub and create a **new public repository**, for example `slab-worth-legal`. Initialize it with a README so it has a `main` branch. Public repositories support GitHub Pages on GitHub Free. Avoid using an existing app source-code repository unless you intend to publish from it.
 2. In the repository, select **Add file → Upload files**.
-3. Open the unzipped folder and drag its **contents** into GitHub: `index.html`, `privacy.html`, `styles.css`, `README.md`, and `OWNER-CHECKLIST.md`. Upload the files, not the ZIP and not an extra enclosing folder. Commit the upload to `main`.
+3. Open the unzipped folder and drag its **contents** into GitHub: `index.html`, `privacy.html`, `support.html`, `styles.css`, `README.md`, and `OWNER-CHECKLIST.md`. Upload the files, not the ZIP and not an extra enclosing folder. Commit the upload to `main`.
 4. Open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**. Select **main** and **/ (root)**, then **Save**.
 5. Wait for GitHub's deployment to finish. The **Pages** settings screen will provide the real website address. Open **Visit site**. If it does not appear immediately, check the repository's **Actions** tab for the deployment status.
 
@@ -26,8 +26,23 @@ https://YOUR-GITHUB-USERNAME.github.io/slab-worth-legal/
 
 - **Terms of Use:** that website address, or the same address followed by `index.html`.
 - **Privacy Policy:** that website address followed by `privacy.html`.
+- **App Support:** that website address followed by `support.html`.
 
 Use the exact address GitHub shows you. The example above is not an already deployed website. Custom domains and account-level Pages sites can use different addresses.
+
+## Set the App Store Connect Support URL
+
+After publishing, open your live `support.html` page and copy its full HTTPS address into the **Support URL** field for your app version in App Store Connect. For the example repository above, the format is:
+
+```text
+https://YOUR-GITHUB-USERNAME.github.io/slab-worth-legal/support.html
+```
+
+Replace the username and repository with your actual values, or copy the deployed address directly from your browser. Use this webpage address in the Support URL field; its email button lets visitors contact you.
+
+The Support page identifies Hayden Fuhrer, displays `haydenfuhrer2@gmail.com`, and includes help for purchases, scans, collections, and technical problems. Confirm that this mailbox is monitored. Apple requires the support website to lead to actual contact information; additional contact details may be required by local law. [Apple's Support URL documentation](https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/).
+
+If you already uploaded the previous package, upload this package's files to the same location and replace the earlier versions. This adds `support.html` and updates the links and shared styling. No change to your existing GitHub Pages settings is needed when the repository and publishing folder stay the same.
 
 ## Complete the legal drafts before using them in your app
 
@@ -40,8 +55,8 @@ After completing factual verification and legal review:
 - Replace every incomplete disclosure and highlight with the final wording.
 - Set truthful effective/updated dates in the page header and any relevant body text.
 - Remove the draft notice and draft badge, and update the page's description.
-- The pages currently contain `<meta name="robots" content="noindex, follow">`. You may remove it if you want search indexing. This tag does **not** make a published site private or prevent access.
-- Check Terms, Privacy, email links, section links, and the narrow-screen layout on the deployed site before adding URLs to the app or App Store Connect.
+- The legal draft pages currently contain `<meta name="robots" content="noindex, follow">`. You may remove it if you want search indexing. This tag does **not** make a published site private or prevent access.
+- Check Terms, Privacy, Support, email links, section links, and the narrow-screen layout on the deployed site before adding URLs to the app or App Store Connect.
 
 ## Files
 
@@ -49,6 +64,7 @@ After completing factual verification and legal review:
 | --- | --- |
 | `index.html` | Terms of Use and the website's opening page |
 | `privacy.html` | Privacy Policy draft |
+| `support.html` | Support contact and help for common issues |
 | `styles.css` | Shared desktop, mobile, and print styles |
 | `README.md` | These setup instructions |
 | `OWNER-CHECKLIST.md` | Remaining publication work |

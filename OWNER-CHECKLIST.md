@@ -25,6 +25,7 @@ The page links directly to Apple's standard EULA and to this site's privacy page
 
 ## Final publication checks
 
+- Publish `support.html`, check that the email contact is correct and monitored, and enter its full live HTTPS address into App Store Connect's Support URL field. Add any additional contact information required by the laws applicable to the publisher. See [Apple's Support URL requirements](https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/).
 - Have the completed text reviewed for the publisher's jurisdiction and distribution markets.
 - Set the final dates; remove drafting instructions, draft notices, badges, and draft metadata after verification.
 - Ensure the policy, App Store privacy labels, permissions, purchase flow, and app behavior agree.

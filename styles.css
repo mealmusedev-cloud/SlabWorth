@@ -37,6 +37,12 @@ h1 { font-family:Georgia,"Times New Roman",serif; font-size:clamp(2.75rem,5vw,4.
 .side-contact a { overflow-wrap:anywhere; }
 .document { min-width:0; max-width:760px; }
 .document p { margin:0 0 1.15rem; }
+.support-contact { background:var(--soft); border:1px solid var(--line); border-radius:8px; padding:24px; margin:0 0 30px; }
+.support-contact .eyebrow { margin-bottom:10px; }
+.support-contact p:last-child { margin-bottom:0; }
+.support-contact .support-button { display:inline-block; background:var(--green); color:white; padding:10px 18px; border-radius:5px; font-weight:600; text-decoration:none; margin:0 0 12px; }
+.support-contact .support-button:hover { background:var(--ink); }
+.support-contact .email-address { font-size:.875rem; overflow-wrap:anywhere; }
 .notice { padding:17px 20px; background:var(--amber-bg); border:1px solid #e4c59c; border-left:3px solid #a76823; color:var(--amber); margin:0 0 30px; border-radius:0 6px 6px 0; font-size:.875rem; line-height:1.65; }
 .notice strong { display:block; margin-bottom:3px; }
 .document h2 { font-size:1.4rem; line-height:1.35; letter-spacing:-.025em; padding-top:30px; border-top:1px solid var(--line); margin:34px 0 18px; font-weight:650; scroll-margin-top:28px; }
